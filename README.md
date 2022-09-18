@@ -1,4 +1,4 @@
-# PROCESSING WAV ENCODED AUDIO FILES
+# Processing WAV encoded audio files
 
 The program checks if the data given follows the Waveform Audio File Format standard described below and prints the relevant audio information like the size of the file and the bits of the file.
 
@@ -48,7 +48,7 @@ run: $(EXEC)
 	  ./$(EXEC) < $(WAV)/addfilehere*.wav
 ```
 
-**Resources:**
+**RESOURCES**
 - https://www.masterclass.com/articles/a-guide-to-audio-file-formats#5UmTBYIj1EAyS6s3CNuhHb 
 - https://docs.fileformat.com/audio/wav/ 
 
