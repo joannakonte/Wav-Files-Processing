@@ -1,4 +1,4 @@
-# Processing WAV encoded audio files
+# 💽 Processing WAV encoded audio files
 
 The program checks if the data given follows the Waveform Audio File Format standard described below and prints the relevant audio information like the size of the file and the bits of the file.
 
