@@ -47,6 +47,8 @@ If you want to try other wav files included in this repository, you can do so by
 run: $(EXEC)
 	  ./$(EXEC) < $(WAV)/<other_wav_file>
 ```
+<br>
+<br>
 
 **Resources:**
 - https://www.masterclass.com/articles/a-guide-to-audio-file-formats#5UmTBYIj1EAyS6s3CNuhHb 
