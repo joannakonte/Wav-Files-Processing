@@ -45,7 +45,7 @@ If you want to try use other wav files included in this repository, you can do s
 
 ```bash
 run: $(EXEC)
-	  ./$(EXEC) < $(WAV)/addfilehere*.wav
+	  ./$(EXEC) < $(WAV)/*addfilenamehere*.wav
 ```
 
 **RESOURCES**
