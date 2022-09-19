@@ -41,14 +41,14 @@ $ make clean
 ```
 **Note:** `make run`, does the following: `$./wavproc < wav_files/bad_wtf.wav`
 
-If you want to try use other wav files included in this repository, you can do so by changing the following in the Makefile:
+If you want to try other wav files included in this repository, you can do so by changing the following in the Makefile:
 
 ```bash
 run: $(EXEC)
-	  ./$(EXEC) < $(WAV)/*addfilenamehere*.wav
+	  ./$(EXEC) < $(WAV)/<other_wav_file>
 ```
 
-**RESOURCES**
+**Resources:**
 - https://www.masterclass.com/articles/a-guide-to-audio-file-formats#5UmTBYIj1EAyS6s3CNuhHb 
 - https://docs.fileformat.com/audio/wav/ 
 
