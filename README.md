@@ -21,8 +21,8 @@ The header of a WAV (RIFF) file is 44 bytes long and has the following format:
 | 9 - 12 | “WAVE” | File Type Header. For our purposes, it always equals “WAVE”. | 
 | 13 - 16| “fmt " | Format chunk marker. |
 | 17 - 20 | 16 | Length of format data as listed above. |
-| 21 - 22 | 1 | Type of WAVE format. For our purposes, it is always equal to 1 - 2 byte integer |
-| 23 - 24 | 2 | Number of Channels - 2 byte integer |
+| 21 - 22 | 1 | Type of WAVE format. For our purposes, it is always equal to 1 - 2 byte integer. |
+| 23 - 24 | 2 | Number of Channels - 2 byte integer. |
 | 25 - 28 | 44100 | Sample Rate = Number of Samples per second. |
 | 29 - 32 | 88200 | Bytes Per Second. |
 | 33 - 32 | 4 | Block Alignment. The number of bytes required to record the audio information at one time, for all channels. BytesPerSec = SampleRate × BlockAlign.
