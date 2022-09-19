@@ -8,7 +8,7 @@ A WAV file is a lossless audio format that does not compress the original analog
 ## WAV File Format
 The WAVE file format, being a subset of Microsoft’s RIFF specification, starts with a file header followed by a sequence of data chunks. A WAVE file has a single “WAVE” chunk which consists of two sub-chunks:
 
-a “fmt” chunk - specifies the data format
+a “fmt” chunk - specifies the data format		
 a “data” chunk - contains the actual sample data
 
 ## WAV File Header
