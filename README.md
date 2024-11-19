@@ -32,7 +32,7 @@ The header of a WAV (RIFF) file is 44 bytes long and has the following format:
 
 ## Makefile
 
-Use the Makefile to compile, run and clean using the following commands:
+Use the `Makefile` to compile, run and clean using the following commands:
 
 ```bash
 $ make 
